@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <img src="" alt="logo">
+  
+      <main class="container">
+        <h1><ion-icon name="basket"></ion-icon>Compras da semana</h1>
+        <input type="text" id="itemInput" placeholder="Adicione um item...">
+        <button id="addBtn">Adicionar item</button> 
+          
+       <section id="opcoes">
+            <div class="item_opcao">  
+  <label>
+    <input type="checkbox" value="Maçã">Pão de forma
+  </label>
+  <button class="remove-btn"><ion-icon name="trash"></ion-icon></button>
+</div>
+
+<div class="item_opcao">  
+  <label>
+    <input type="checkbox" value="Banana">Café preto
+  </label>
+  <button class="remove-btn"><ion-icon name="trash"></ion-icon></button>
+</div>
+         
+         <div class="item_opcao">  
+  <label>
+    <input type="checkbox" value="Banana">Guaravita
+  </label>
+  <button class="remove-btn"><ion-icon name="trash"></ion-icon></button>
+</div>
+         
+         <div class="item_opcao">  
+  <label>
+    <input type="checkbox" value="Banana">Biscoito
+  </label>
+  <button class="remove-btn"><ion-icon name="trash"></ion-icon></button>
+</div>
+        </section>  
+
+   <section id="message" class="message">
+     <p></p>
+    </section>
+  </main>
+      
+    
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
