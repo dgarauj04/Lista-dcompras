@@ -151,9 +151,8 @@ input[type="checkbox"]:checked::after {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-    margin-top: 25px;
+  margin-top: 25px;
   margin-left: 15px;
-    width: 90%;
   font-size: 17px;
   font-weight: semibold;
 }
@@ -163,8 +162,7 @@ input[type="checkbox"]:checked::after {
     color: #ffffff;
     border-radius: 15px;
     padding: 10px;
-    letter-spacing: 2px;
-    width: 60%;
+    width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -173,7 +171,6 @@ input[type="checkbox"]:checked::after {
     color: #ffffff;
     border-radius: 15px;
     padding: 10px;
-    letter-spacing: 2px;
-    width: 60%;
+    width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
